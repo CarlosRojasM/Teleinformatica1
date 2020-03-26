@@ -1,8 +1,12 @@
 Primero que todo debemos instalar python3 en el sistema operativo y pip
-Despues debemos instalar con el comando pip3 ls librerias de TEXTX con el comando 
-    $ sudo pip install textx
-textx es un meta lenguaje escrito en python que nos permite generar codigo java
+Despues debemos instalar con el comando pip3 ls librerias de TEXTX con el comando. 
+
+        $ pip install textx
+        
+textx es un meta lenguaje escrito en python que nos permite generar codigo java.
+
 proseguimos directamente con el manual de textx ue es el siguiente: 
+
 This is an example of a simple Entity DSL.
 
 File `entity.tx` contains a grammar of the language.  Each entity DSL model
