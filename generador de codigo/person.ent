@@ -1,0 +1,38 @@
+entity Persona {
+  nombre : string      
+  apellido : string
+  direccion: Direccion
+  edad: integer
+  telefono : Telefono
+  correo : string
+  nuevo : bool
+}
+
+entity Direccion {
+  calle : string
+  ciudad : string
+  pais : string
+}
+
+entity Telefono {
+  indicador : string
+  numero : string
+}
+
+entity Conexion {
+  baseDeDatos : nameBD
+  usuario : user
+  contaseña : password
+}
+entity DaoPersona {
+  consultar : Persona
+  eliminar : Persona
+  insertar : Persona
+  modificar : Persona
+}
+entity DaoCajero {
+  consultar : string
+  eliminar : string
+  insertar : string
+  modificar : string
+}
