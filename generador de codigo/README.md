@@ -44,7 +44,7 @@ To run the example do the following:
 
 - From the Entity example folder run
 
-        $ python entity_test.py
+        $ python3 entity_test.py
 
 - Previous command will generate dot files in `dotexport` folder. To convert 
   those files to PNG format do (you must have [GraphViz](http://graphviz.org/)
@@ -57,7 +57,7 @@ To run the example do the following:
 
 - Run code generation:
 
-        $ python entity_codegen.py
+        $ python3 entity_codegen.py
 
   This will produce html and js files to `Address` and `Person` in `srcgen`
   folder that corresponds to entities from the Person model.
